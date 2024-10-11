@@ -69,7 +69,8 @@
 		"hediet.vscode-drawio",
 		"msazurermtools.azurerm-vscode-tools",
 		"ms-azuretools.vscode-logicapps",
-    "ms-azuretools.vscode-azurestorage"
+    		"ms-azuretools.vscode-azurestorage",
+		"ms-vscode.azurecli"
 	]
 	}
  },

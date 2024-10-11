@@ -42,6 +42,7 @@ RUN sudo apt-get update \
 
 ARG DOCKER_GROUP_ID
 COPY ./scripts/docker-client.sh /tmp/
+RUN chmod +x /tmp/docker-client.sh
 RUN /tmp/docker-client.sh $USERNAME
 
 # Git command prompt

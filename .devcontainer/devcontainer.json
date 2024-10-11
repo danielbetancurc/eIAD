@@ -24,6 +24,8 @@
 	],
 
 	// Set *default* container specific settings.json values on container create.
+ "customizations": {
+        "vscode": {
 	"settings": { 
 		"python.pythonPath": "/opt/conda/envs/development/bin/python",
 		"python.languageServer": "Pylance",
@@ -68,7 +70,9 @@
 		"msazurermtools.azurerm-vscode-tools",
 		"ms-azuretools.vscode-logicapps",
     "ms-azuretools.vscode-azurestorage"
-	],
+	]
+	}
+ }
 
 	"remoteUser": "vscode"
 }

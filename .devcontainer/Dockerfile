@@ -66,6 +66,7 @@ RUN curl -sSL -o /tmp/docker-downloads/tflint.zip https://github.com/wata727/tfl
 
 # azure-cli
 COPY ./scripts/azure-cli.sh /tmp/
+RUN chmod +x /tmp/azure-cli.sh
 RUN /tmp/azure-cli.sh
 
 # Install dotnet 6
